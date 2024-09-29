@@ -3,8 +3,8 @@
   <entry>
     <title>Guide</title>
     <url>/2024/09/26/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><p><img src="/images/flower_3.jpg"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
@@ -17,11 +17,39 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+      <categories>
+        <category>gallery</category>
+      </categories>
   </entry>
   <entry>
-    <title>TestPost</title>
+    <title>TestPosts</title>
     <url>/2024/09/26/TestPost/</url>
-    <content><![CDATA[<h2 id="Test-Practices"><a href="#Test-Practices" class="headerlink" title="Test Practices"></a>Test Practices</h2>]]></content>
+    <content><![CDATA[<h2 id="Test-Practices"><a href="#Test-Practices" class="headerlink" title="Test Practices"></a>Test Practices</h2><p><img src="/images/flower_2.jpg"></p>
+<h3 id="Test-Table"><a href="#Test-Table" class="headerlink" title="Test Table"></a>Test Table</h3><table>
+<thead>
+<tr>
+<th align="center">Name</th>
+<th align="center">Age</th>
+<th align="center">Gender</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">John</td>
+<td align="center">30</td>
+<td align="center">Male</td>
+</tr>
+<tr>
+<td align="center">Jane</td>
+<td align="center">28</td>
+<td align="center">Female</td>
+</tr>
+<tr>
+<td align="center">Bob</td>
+<td align="center">35</td>
+<td align="center">Male</td>
+</tr>
+</tbody></table>
+]]></content>
       <categories>
         <category>Test</category>
         <category>gallery</category>
