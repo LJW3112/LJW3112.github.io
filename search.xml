@@ -49,7 +49,7 @@
 <td align="center">Male</td>
 </tr>
 </tbody></table>
-]]></content>
+<h3 id="Test-Code"><a href="#Test-Code" class="headerlink" title="Test Code"></a>Test Code</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">a, b</span>):</span><br><span class="line">    <span class="keyword">return</span> a + b</span><br><span class="line">    </span><br><span class="line">    <span class="built_in">print</span>(add(<span class="number">1</span>, <span class="number">2</span>))</span><br><span class="line">    <span class="built_in">print</span>(add(<span class="number">3</span>, <span class="number">4</span>))</span><br><span class="line">    <span class="built_in">print</span>(add(<span class="number">5</span>, <span class="number">6</span>))</span><br><span class="line">    <span class="keyword">return</span> a + b</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Test</category>
         <category>gallery</category>
