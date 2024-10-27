@@ -7,11 +7,13 @@ th {
 }
 table {
   border-collapse: collapse;
-  table-layout: fixed;
+  table-layout: auto;
 }
 td,
 th {
   padding: $margin-m-1;
+  word-wrap: break-word;
+  width: 25%;
 }
 th {
   font-variation-settings: 'wght' $font-weight-medium;
@@ -20,12 +22,12 @@ td {
   font-variation-settings: 'wght' $font-weight-light;
 }
 table,
-tboby,
+tbody,
 tr,
 td {
   background-color: inherit;
 }
-.highlight>table {
+.highlight > table {
   min-width: fit-content;
 }
 @media (max-width: 480px) {
