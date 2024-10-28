@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Ceng's Blog">
+
+
+    <meta name="subtitle" content="Empty">
+
+
+
+
+
+
+<title>SOPNodes | Ceng&#39;s blog</title>
+
+
+
+    <link rel="icon" href="/favicon_1.ico">
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&family=Roboto+Mono&display=swap');
+</style>
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/menu.js"></script>
+    
+
+
+
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+
+
+
+
+  <meta name="generator" content="Hexo 7.3.0"></head>
+  <body>
+    <div class="mask-border">
+    </div>
+
+    <div class="wrapper">
+
+      <div class="header">
+  <div class="flex-container">
+    <div class="header-inner">
+      <div class="site-brand-container">
+        <a href="/">
+          
+            Ceng&#39;s Blog
+          
+        </a>
+      </div>
+      <div id="menu-btn" class="menu-btn" onclick="toggleMenu()">
+        Menu
+      </div>
+      <nav class="site-nav">
+        <ul class="menu-list">
+          
+            
+              <li class="menu-item">
+                <a href="/">Home</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/archives/">Archive</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/categories/gallery/">Gallery</a>
+              </li> 
+                   
+          
+          
+            <li class="menu-item search-btn">
+              <a href="#">Search</a>
+            </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main">
+        <div class="flex-container">
+          <article id="post">
+
+  
+    <div class="post-head">
+    <div class="post-info">
+        <div class="tag-list">
+            
+                
+                    <span class="post-tag">
+                        <a href="/tags/SOP/">
+                            SOP
+                        </a>
+                    </span>    
+                           
+            
+        </div>
+        <div class="post-title">
+            
+            
+                SOPNodes
+            
+            
+        </div>
+        <span class="post-date">
+            10月 28, 2024
+        </span>
+    </div>
+    <div class="post-img">
+        
+            <img src="/images/flower_3.jpg" alt="featured_image">
+              
+    </div>
+</div>
+    <div class="post-content">
+    <h1 id="SOP-Memory-Tips"><a href="#SOP-Memory-Tips" class="headerlink" title="SOP Memory Tips"></a><strong>SOP Memory Tips</strong></h1><hr>
+<h1 id="SOP-Usual-Nodes（Edit-To-Model-Frequency）"><a href="#SOP-Usual-Nodes（Edit-To-Model-Frequency）" class="headerlink" title="SOP Usual Nodes（Edit To Model Frequency）"></a>SOP Usual Nodes（Edit To Model Frequency）</h1><table>
+<thead>
+<tr>
+<th align="center">Tube「创建圆柱体」</th>
+<th align="center">Transform「对物体的 PSR」</th>
+<th align="center">Convert「转化线框」</th>
+<th align="center">Attribcreate「属性创建」</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Gird「创建平面网格」</td>
+<td align="center">Edit「编辑点线面」</td>
+<td align="center">Resample「重新采样点」</td>
+<td align="center">Enunerate「创建唯一编号」</td>
+</tr>
+<tr>
+<td align="center">Box「创建立方体」</td>
+<td align="center">PointJitter「抖动点的位置」</td>
+<td align="center">Fuse「焊接临界点」</td>
+<td align="center">Attribpaint「绘制属性」</td>
+</tr>
+<tr>
+<td align="center">Torus「创建圆环体」</td>
+<td align="center">Mountain「噪波（形态）置换」</td>
+<td align="center">Carve「切片几何体」</td>
+<td align="center">Merge「节点合并」</td>
+</tr>
+<tr>
+<td align="center">Sphere「创建球体」</td>
+<td align="center">Smooth「平滑点」</td>
+<td align="center">Trail「创建尾托」</td>
+<td align="center">Null「空节点」</td>
+</tr>
+<tr>
+<td align="center">Add「创建点&#x2F;点连线」</td>
+<td align="center">Subdivide「细分曲面」</td>
+<td align="center">Clip「裁切几何体」</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Scatter「在物体表面撒点」</td>
+<td align="center"></td>
+<td align="center">Blast「指定删除点线面」</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Circle「创建圆环」</td>
+<td align="center"></td>
+<td align="center">Delete「删除点线面」</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Line「创建直线」</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Curve「绘制曲线」</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center">Copy「线性克隆」</th>
+<th align="center">PolyExtrude「挤出」</th>
+<th align="center">Obeject_Merge「对象指定转移」</th>
+<th align="center">Font「创建文本」</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">CopyToPoints「克隆到点」</td>
+<td align="center">Remesh「重新拓扑」</td>
+<td align="center">File「导入模型」</td>
+<td align="center">Bend「弯曲扭曲膨胀」</td>
+</tr>
+<tr>
+<td align="center">CopyToCurve「克隆到曲线」</td>
+<td align="center">Trace「从图片创建曲线」</td>
+<td align="center">Alembic「导入 ABC 模型」</td>
+<td align="center">Skin「放样」</td>
+</tr>
+<tr>
+<td align="center">Normal「创建法线」</td>
+<td align="center">Visbility「隐藏点线面」</td>
+<td align="center">Rop_Alembic「导出 ABC 模型」</td>
+<td align="center">Ripple「水波」</td>
+</tr>
+<tr>
+<td align="center">PolyFrame「法线和切线的计算」</td>
+<td align="center">Control「控制器」</td>
+<td align="center">Rop_Geometry「导出几何体」</td>
+<td align="center">Mirro「镜像」</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">PolyEduce「减面」</td>
+<td align="center">Export「导出 Obj 模型」</td>
+<td align="center">Boolean「布尔运算」</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">PolyWire「晶格（连接）」</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">Wire「晶格（独立）」</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center">Group「创建组」</th>
+<th align="center">GroupAttribute「组转化为属性」</th>
+<th align="center">GroupRomote「元素间组转换」</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">GroupRename「重命名组名」</td>
+<td align="center">Group_by_attribute「属性转化为组」</td>
+<td align="center">GroupTransfer「组的转移」</td>
+</tr>
+<tr>
+<td align="center">GroupCombine「组的布尔运算」</td>
+<td align="center">GroupFindPath「组的最短路径成组」</td>
+<td align="center">GroupCopy「组的复制」</td>
+</tr>
+<tr>
+<td align="center">GroupRange「图案建组」</td>
+<td align="center">GroupInvert「组的反转」</td>
+<td align="center">GroupExpression「表达式成组」</td>
+</tr>
+<tr>
+<td align="center">GroupPaint「手动绘制点组」</td>
+<td align="center"></td>
+<td align="center">GroupDelete「删除组」</td>
+</tr>
+<tr>
+<td align="center">GroupExpand「组的扩展延伸」</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center">SequenceBlend「圆滑混合」</th>
+<th align="center">SoftTransform「衰减 PSR」</th>
+<th align="center">Stroke「自由绘制和投射曲线」</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">BlendShapes「混合模型」</td>
+<td align="center">Peak「沿法线移动」</td>
+<td align="center">Starburst「向内挤压和挤出」</td>
+</tr>
+<tr>
+<td align="center">Bound「限界」</td>
+<td align="center">SoftPeak「衰减沿法线移动」</td>
+<td align="center">Switch「门禁（控制数据的放行）」</td>
+</tr>
+<tr>
+<td align="center">MatchPolygy「匹配拓扑」</td>
+<td align="center">IsoOffset「模型转化成体积」</td>
+<td align="center">Stash「冻结数量」</td>
+</tr>
+<tr>
+<td align="center">Sweep「扫描外形」</td>
+<td align="center">ExtrudeVolume「挤出实体」</td>
+<td align="center">Measure「测量和存储数据」</td>
+</tr>
+<tr>
+<td align="center">SuperQuad「超级曲面」</td>
+<td align="center">PolyFill「封闭空间」</td>
+<td align="center">sort「更改序号」</td>
+</tr>
+<tr>
+<td align="center">PolyPath「提取线框」</td>
+<td align="center"></td>
+<td align="center">Ray「收缩包裹（将一个模型投射到另一个模型上）」</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+
+</div> 
+
+<script>
+    window.onload = detectors();
+</script>
+    <div class="post-footer">
+    <div class="h-line-primary"></div>
+    <nav class="post-nav">
+        <div class="prev-item">
+           
+        </div>
+        <div class="next-item">
+            
+                <div class="icon arrow-right"></div>
+                <div class="post-link">
+                  <a href="/2024/10/26/vexSyntax/">Next</a>  
+                </div>  
+            
+        </div>
+    </nav>
+</div>
+
+    
+      <div class="post-comment">
+
+     
+
+     
+    
+    
+
+</div>
+     
+  
+</article>
+        </div>
+      </div>
+      
+      <div class="footer">
+    <div class="flex-container">
+        <div class="footer-text">
+            
+                CopyRight©️ by Ceng&#39;s
+                <br>
+            
+            
+                
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    
+      <div class="search-popup">
+    <div class="search-popup-overlay">  
+    </div>
+    <div class="search-popup-window" >
+        <div class="search-header">
+            <div class="search-input-container">
+              <input autocomplete="off" autocapitalize="off" maxlength="80"
+                     placeholder="Search Anything" spellcheck="false"
+                     type="search" class="search-input">
+            </div>
+            <div class="search-close-btn">
+                <div class="icon close-btn"></div>
+            </div>
+        </div>
+        <div class="search-result-container">
+        </div>
+    </div>
+</div>
+
+<script>
+    const searchConfig = {
+        path             : "/search.xml",
+        top_n_per_article: "1",
+        unescape         : "false",
+        trigger: "auto",
+        preload: "false"
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js"></script>
+<script src="/js/search.js"></script>
+    
+    
+
+  </body>
+</html>

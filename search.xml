@@ -28,10 +28,10 @@
 <td align="center">Male</td>
 </tr>
 </tbody></table>
-<h3 id="Test-Code"><a href="#Test-Code" class="headerlink" title="Test Code"></a>Test Code</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">a, b</span>):</span><br><span class="line">    <span class="keyword">return</span> a + b</span><br><span class="line">    </span><br><span class="line">    <span class="built_in">print</span>(add(<span class="number">1</span>, <span class="number">2</span>))</span><br><span class="line">    <span class="built_in">print</span>(add(<span class="number">3</span>, <span class="number">4</span>))</span><br><span class="line">    <span class="built_in">print</span>(add(<span class="number">5</span>, <span class="number">6</span>))</span><br><span class="line">    <span class="keyword">return</span> a + b</span><br></pre></td></tr></table></figure>]]></content>
+<h3 id="Test-Code"><a href="#Test-Code" class="headerlink" title="Test Code"></a>Test Code</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">a, b</span>):</span><br><span class="line">    <span class="keyword">return</span> a + b</span><br><span class="line"></span><br><span class="line">    <span class="built_in">print</span>(add(<span class="number">1</span>, <span class="number">2</span>))</span><br><span class="line">    <span class="built_in">print</span>(add(<span class="number">3</span>, <span class="number">4</span>))</span><br><span class="line">    <span class="built_in">print</span>(add(<span class="number">5</span>, <span class="number">6</span>))</span><br><span class="line">    <span class="keyword">return</span> a + b</span><br><span class="line">    ```</span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
-        <category>Test</category>
-        <category>gallery</category>
+        <category>-[gallery]</category>
       </categories>
       <tags>
         <tag>Test</tag>
@@ -41,11 +41,13 @@
   <entry>
     <title>ShowReel</title>
     <url>/2024/10/08/Showreel/</url>
-    <content><![CDATA[<h2 id="Showreel"><a href="#Showreel" class="headerlink" title="Showreel"></a>Showreel</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Empty </span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h2 id="Showreel"><a href="#Showreel" class="headerlink" title="Showreel"></a>Showreel</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Empty</span><br></pre></td></tr></table></figure>
+
 <p><img src="/images/flower_2.jpg" alt="Art"></p>
 <h3 id="Video-Test"><a href="#Video-Test" class="headerlink" title="Video Test"></a>Video Test</h3><video id="video" controls="true" controlslist="nodownload" preload="true" allowfullscreen="true" position= "absolute" width="100%" poster="https://img.zcool.cn/community/018e365f0dd782a801206621433990.png?imageMogr2/auto-orient/thumbnail/1280x%3e/sharpen/0.5/quality/100/format/webp">
     <source id="mp4" src="https://zcool-video.zcool.cn/alivod/67f8244f8d2a4635b15b5cb36c8b810f.mp4?k=0455fdd041a7aa728267e8afb00efef5&t=67052c49" type="video/mp4" >
-</video>]]></content>
+</video>
+]]></content>
       <categories>
         <category>gallery</category>
       </categories>
@@ -73,7 +75,7 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
       <categories>
-        <category>gallery</category>
+        <category>-[gallery]</category>
       </categories>
   </entry>
   <entry>
@@ -115,7 +117,7 @@
 </tr>
 <tr>
 <td align="center">vector4</td>
-<td align="center">四维向量（四位浮点值）可用来表示齐次坐标或者alpha（RGBA）着色 通常表示四元数按x&#x2F;y&#x2F;z&#x2F;w</td>
+<td align="center">四维向量（四位浮点值）可用来表示齐次坐标或者 alpha（RGBA）着色 通常表示四元数按 x&#x2F;y&#x2F;z&#x2F;w</td>
 <td align="center">{0, 0, 0, 1}, {0.3, 0.5, -0.5, 0.2}</td>
 </tr>
 <tr>
@@ -130,7 +132,7 @@
 </tr>
 <tr>
 <td align="center">matrix2</td>
-<td align="center">2 x 2  二维变换矩阵（四位浮点值）</td>
+<td align="center">2 x 2 二维变换矩阵（四位浮点值）</td>
 <td align="center">&#123;&#123;1, 2&#125;, &#123;3, 2&#125;&#125;</td>
 </tr>
 <tr>
@@ -161,7 +163,7 @@
 </ul>
 </li>
 </ul>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">声明变量(Variable)</span><br><span class="line"><span class="comment">//create Variable</span></span><br><span class="line"><span class="type">float</span> x ;</span><br><span class="line"><span class="type">int</span> _x = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//Data Type 数据类型</span></span><br><span class="line"><span class="type">float</span> floatVar = <span class="number">2.1</span>;<span class="comment">//浮点数类型</span></span><br><span class="line"><span class="type">int</span> integerVar = <span class="number">1</span>;<span class="comment">//整数类型</span></span><br><span class="line">vector2 v2= &#123;<span class="number">2.0</span>,<span class="number">5.0</span>&#125;;<span class="comment">//二维向量类型（向量的每个分量都是浮点）</span></span><br><span class="line"><span class="built_in">vector</span> vectorVar = &#123;<span class="number">2.1</span>,<span class="number">1.2</span>,<span class="number">9.1</span>&#125;;<span class="comment">//三维向量</span></span><br><span class="line">vector4 v4 = &#123;<span class="number">3.0</span>,<span class="number">1.0</span>,<span class="number">6.0</span>,<span class="number">2.1</span>&#125;;<span class="comment">//四维向量</span></span><br><span class="line"></span><br><span class="line">matrix2 m2 = &#123;&#123;<span class="number">0</span>,<span class="number">1</span>&#125;,&#123;<span class="number">2</span>,<span class="number">1</span>&#125;&#125;;<span class="comment">//2x2 矩阵</span></span><br><span class="line">matrix3 m3 = &#123;&#123;<span class="number">1</span>,<span class="number">1</span>,<span class="number">1</span>&#125;,&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">2</span>&#125;,&#123;<span class="number">0</span>,<span class="number">3</span>,<span class="number">1</span>&#125;&#125;;<span class="comment">//3x3矩阵</span></span><br><span class="line">matrix  m4 =&#123;&#123;<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>&#125;,&#123;<span class="number">9</span>,<span class="number">3</span>,<span class="number">2</span>,<span class="number">1</span>&#125;,&#123;<span class="number">4</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">2</span>&#125;,&#123;<span class="number">7</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">2</span>&#125;&#125;;<span class="comment">//4x4矩阵</span></span><br><span class="line"><span class="built_in">string</span> stringVar = <span class="string">&quot;hello World&quot;</span>;<span class="comment">//字符串类型</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//array 数组</span></span><br><span class="line"><span class="type">int</span>   array1[]=&#123;&#125;;<span class="comment">//数组的值也可以为空 -整数数组</span></span><br><span class="line"><span class="type">float</span> array2[] = &#123;<span class="number">2.1</span>,<span class="number">8.3</span>&#125;;<span class="comment">//浮点数组</span></span><br><span class="line"></span><br><span class="line">vector2 array3[] = &#123; &#123;<span class="number">1.0</span>&#125;,&#123;<span class="number">2.0</span>&#125; &#125;;<span class="comment">//二维向量数组</span></span><br><span class="line"><span class="built_in">vector</span>  array4[] = &#123; &#123;<span class="number">3.2</span>&#125;,&#123;<span class="number">1.0</span>&#125;,&#123;<span class="number">0.8</span>&#125; &#125;; <span class="comment">//三维向量数组</span></span><br><span class="line">vector4 array5[] = &#123; &#123;<span class="number">2.0</span>&#125;,&#123;<span class="number">5.0</span>&#125;,&#123;<span class="number">2.1</span>&#125;,&#123;<span class="number">7.3</span>&#125; &#125;;<span class="comment">//四维向量数组</span></span><br><span class="line"></span><br><span class="line">matrix2 array6[] = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">5</span>&#125;;<span class="comment">//2x2矩阵数组</span></span><br><span class="line">matrix3 array7[] = <span class="built_in">array</span>(m3);<span class="comment">//3x3矩阵数组 </span></span><br><span class="line">matrix  array8[] = <span class="built_in">array</span>(array8);<span class="comment">//4x4矩阵数组</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">string</span>  array9[] = &#123;<span class="string">&quot;hello&quot;</span>,<span class="string">&quot;Wrold!&quot;</span>&#125;;<span class="comment">//字符串数组</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//创建变量时可以不初始化,使用初始化的值会警告&quot;Warning&quot; 数组不会警告 </span></span><br><span class="line"><span class="comment">//赋值后不会警告</span></span><br><span class="line"><span class="type">int</span> integerVar; <span class="type">float</span> fVar;<span class="built_in">string</span> sVar=<span class="string">&quot;114514&quot;</span>;<span class="built_in">vector</span> vVar;matrix mVar;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%f\n&quot;</span>,x);<span class="comment">//Console Prnint</span></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,integerVar);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%s\n&quot;</span>,v4);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%s\n&quot;</span>,array8);</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">声明变量(Variable)</span><br><span class="line"><span class="comment">//create Variable</span></span><br><span class="line"><span class="type">float</span> x ;</span><br><span class="line"><span class="type">int</span> _x = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//Data Type 数据类型</span></span><br><span class="line"><span class="type">float</span> floatVar = <span class="number">2.1</span>;<span class="comment">//浮点数类型</span></span><br><span class="line"><span class="type">int</span> integerVar = <span class="number">1</span>;<span class="comment">//整数类型</span></span><br><span class="line">vector2 v2= &#123;<span class="number">2.0</span>,<span class="number">5.0</span>&#125;;<span class="comment">//二维向量类型（向量的每个分量都是浮点）</span></span><br><span class="line"><span class="built_in">vector</span> vectorVar = &#123;<span class="number">2.1</span>,<span class="number">1.2</span>,<span class="number">9.1</span>&#125;;<span class="comment">//三维向量</span></span><br><span class="line">vector4 v4 = &#123;<span class="number">3.0</span>,<span class="number">1.0</span>,<span class="number">6.0</span>,<span class="number">2.1</span>&#125;;<span class="comment">//四维向量</span></span><br><span class="line"></span><br><span class="line">matrix2 m2 = &#123;&#123;<span class="number">0</span>,<span class="number">1</span>&#125;,&#123;<span class="number">2</span>,<span class="number">1</span>&#125;&#125;;<span class="comment">//2x2 矩阵</span></span><br><span class="line">matrix3 m3 = &#123;&#123;<span class="number">1</span>,<span class="number">1</span>,<span class="number">1</span>&#125;,&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">2</span>&#125;,&#123;<span class="number">0</span>,<span class="number">3</span>,<span class="number">1</span>&#125;&#125;;<span class="comment">//3x3矩阵</span></span><br><span class="line">matrix  m4 =&#123;&#123;<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>&#125;,&#123;<span class="number">9</span>,<span class="number">3</span>,<span class="number">2</span>,<span class="number">1</span>&#125;,&#123;<span class="number">4</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">2</span>&#125;,&#123;<span class="number">7</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">2</span>&#125;&#125;;<span class="comment">//4x4矩阵</span></span><br><span class="line"><span class="built_in">string</span> stringVar = <span class="string">&quot;hello World&quot;</span>;<span class="comment">//字符串类型</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//array 数组</span></span><br><span class="line"><span class="type">int</span>   array1[]=&#123;&#125;;<span class="comment">//数组的值也可以为空 -整数数组</span></span><br><span class="line"><span class="type">float</span> array2[] = &#123;<span class="number">2.1</span>,<span class="number">8.3</span>&#125;;<span class="comment">//浮点数组</span></span><br><span class="line"></span><br><span class="line">vector2 array3[] = &#123; &#123;<span class="number">1.0</span>&#125;,&#123;<span class="number">2.0</span>&#125; &#125;;<span class="comment">//二维向量数组</span></span><br><span class="line"><span class="built_in">vector</span>  array4[] = &#123; &#123;<span class="number">3.2</span>&#125;,&#123;<span class="number">1.0</span>&#125;,&#123;<span class="number">0.8</span>&#125; &#125;; <span class="comment">//三维向量数组</span></span><br><span class="line">vector4 array5[] = &#123; &#123;<span class="number">2.0</span>&#125;,&#123;<span class="number">5.0</span>&#125;,&#123;<span class="number">2.1</span>&#125;,&#123;<span class="number">7.3</span>&#125; &#125;;<span class="comment">//四维向量数组</span></span><br><span class="line"></span><br><span class="line">matrix2 array6[] = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">5</span>&#125;;<span class="comment">//2x2矩阵数组</span></span><br><span class="line">matrix3 array7[] = <span class="built_in">array</span>(m3);<span class="comment">//3x3矩阵数组</span></span><br><span class="line">matrix  array8[] = <span class="built_in">array</span>(array8);<span class="comment">//4x4矩阵数组</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">string</span>  array9[] = &#123;<span class="string">&quot;hello&quot;</span>,<span class="string">&quot;Wrold!&quot;</span>&#125;;<span class="comment">//字符串数组</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//创建变量时可以不初始化,使用初始化的值会警告&quot;Warning&quot; 数组不会警告</span></span><br><span class="line"><span class="comment">//赋值后不会警告</span></span><br><span class="line"><span class="type">int</span> integerVar; <span class="type">float</span> fVar;<span class="built_in">string</span> sVar=<span class="string">&quot;114514&quot;</span>;<span class="built_in">vector</span> vVar;matrix mVar;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%f\n&quot;</span>,x);<span class="comment">//Console Prnint</span></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,integerVar);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%s\n&quot;</span>,v4);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%s\n&quot;</span>,array8);</span><br></pre></td></tr></table></figure>
 
 <h2 id="固有属性-Attributes"><a href="#固有属性-Attributes" class="headerlink" title="固有属性 (Attributes)"></a>固有属性 (Attributes)</h2><hr>
 <ul>
@@ -169,16 +171,16 @@
 </li>
 <li><p>Example:diamond_shape_with_a_dot_inside: : <code>@N; @up</code> 可以不指定类型 如 <code>@N</code>不必写成：<code>v@N;</code></p>
 </li>
-<li><p>当<strong>自定义 创建属性</strong>时  如果@符号签不指定数据类型 <strong>默认为</strong> <code>float</code> 数据类型</p>
+<li><p>当<strong>自定义 创建属性</strong>时 如果@符号签不指定数据类型 <strong>默认为</strong> <code>float</code> 数据类型</p>
 </li>
-<li><p>当创建使用Houdini常用固有属性时 Example：<code>vector @P = &#123;1,2.1,0.8&#125;;</code> 可以简写成：<code>v@P = &#123;1,2.1,0.8&#125;;</code>  </p>
+<li><p>当创建使用 Houdini 常用固有属性时 Example：<code>vector @P = &#123;1,2.1,0.8&#125;;</code> 可以简写成：<code>v@P = &#123;1,2.1,0.8&#125;;</code></p>
 </li>
 <li><p>当给某个属性<strong>赋值</strong>时:</p>
 <ul>
-<li>Example:<code>@N=&#123;2,@P.y,$PI&#125;;</code> <strong>不能</strong>在<strong>花括号里</strong>写带有 <strong>变量名&#x2F;属性&#x2F;字符</strong>; <code>@N=&#123;2,1,0&#125;;</code> 只能是<strong>纯数字</strong>  如果要设置 需使用<code>set</code>函数<code>@N = set(1,@P.y,1);</code></li>
+<li>Example:<code>@N=&#123;2,@P.y,$PI&#125;;</code> <strong>不能</strong>在<strong>花括号里</strong>写带有 <strong>变量名&#x2F;属性&#x2F;字符</strong>; <code>@N=&#123;2,1,0&#125;;</code> 只能是<strong>纯数字</strong> 如果要设置 需使用<code>set</code>函数<code>@N = set(1,@P.y,1);</code></li>
 </ul>
 </li>
-<li><p>注意⚠️（非数据类型 简写形式不管是<strong>自定义数组</strong>还是<strong>非自定义属性</strong>都<strong>不能赋初始值</strong>）</p>
+<li><p>注意 ⚠️（非数据类型 简写形式不管是<strong>自定义数组</strong>还是<strong>非自定义属性</strong>都<strong>不能赋初始值</strong>）</p>
 <ul>
 <li><code>float @mass = 1 / @area;</code> Error <strong>非简写不可以有算式</strong> 简写可以：<code>f@mass = 1 / @area;</code>;</li>
 <li><code>vector @up = set(0,1,0);</code> Error <strong>非简写不可以用函数</strong> 简写可以 :<code>v@up=set(0,1,0);</code>;</li>
@@ -288,7 +290,7 @@
 </tr>
 <tr>
 <td align="center">@Frame</td>
-<td align="center">表示当前一帧 如果当前帧是2 那么值就是1 依次类推</td>
+<td align="center">表示当前一帧 如果当前帧是 2 那么值就是 1 依次类推</td>
 </tr>
 <tr>
 <td align="center">@ptnum</td>
@@ -336,7 +338,7 @@
 </tr>
 <tr>
 <td align="center">@up</td>
-<td align="center">朝向（对象Y轴所要朝向的位置 up的优先级比法线低）</td>
+<td align="center">朝向（对象 Y 轴所要朝向的位置 up 的优先级比法线低）</td>
 </tr>
 <tr>
 <td align="center">@group_groupName</td>
@@ -369,31 +371,31 @@
 </tbody></table>
 <ul>
 <li><p><strong>Example Code:</strong></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//自定义创建属性</span></span><br><span class="line">f@mass = <span class="number">1</span>/@area;</span><br><span class="line">v@up = <span class="built_in">set</span>(<span class="number">0</span>,<span class="number">1</span>,<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">i@id = <span class="number">8</span>; <span class="comment">//i表示整数</span></span><br><span class="line">f@width = <span class="number">1.0</span>;<span class="comment">//f表示浮点数</span></span><br><span class="line">u@xy = &#123;<span class="number">0.3</span>,<span class="number">0.9</span>&#125;;<span class="comment">//u表示二维向量</span></span><br><span class="line">v@w = <span class="built_in">set</span>(@width,$PI,<span class="number">0.5</span>);<span class="comment">//v表示三维向量//v@w = &#123;@width,$PI,0.5&#125;;不能这么写</span></span><br><span class="line">p@point = &#123;<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">1</span>&#125;;<span class="comment">//p表示四维向量</span></span><br><span class="line"><span class="number">2</span>@scale_2d = &#123;&#123;<span class="number">2</span>,<span class="number">0</span>&#125;,&#123;<span class="number">1</span>,<span class="number">9</span>&#125;&#125;;<span class="comment">//2表示2x2维矩阵</span></span><br><span class="line"><span class="number">3</span>@scale = &#123;&#123;<span class="number">2</span>,<span class="number">1</span>,<span class="number">6</span>&#125;,&#123;<span class="number">2</span>,<span class="number">1</span>,<span class="number">9</span>&#125;,&#123;<span class="number">1</span>,<span class="number">5</span>,<span class="number">7</span>&#125;&#125;;<span class="comment">//3表示3x3矩阵</span></span><br><span class="line"><span class="number">4</span>@trans =&#123;&#123;<span class="number">2</span>,<span class="number">1</span>,<span class="number">5</span>,<span class="number">0</span>&#125;,&#123;<span class="number">2</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">2</span>&#125;,&#123;<span class="number">3</span>,<span class="number">4</span>,<span class="number">6</span>,<span class="number">9</span>&#125;,&#123;<span class="number">2</span>,<span class="number">1</span>,<span class="number">4</span>,<span class="number">8</span>&#125;&#125;;<span class="comment">//4表示4x4矩阵</span></span><br><span class="line">s@path = <span class="string">&quot;op/obj/geo1/pack1&quot;</span>;<span class="comment">//s表示字符串</span></span><br><span class="line"><span class="type">int</span> @neighbours[]=;<span class="comment">//不简写不能赋初始值</span></span><br><span class="line">                  <span class="comment">// int @neighbours[]=&#123;1,2,0&#125;;Error</span></span><br><span class="line"><span class="comment">//create custom array </span></span><br><span class="line">i[]@pointcloud =&#123;<span class="number">0</span>,<span class="number">1</span>,<span class="number">2</span>&#125;;</span><br><span class="line">f[]@len =<span class="built_in">array</span>(<span class="number">1</span>,@Time,@width);<span class="comment">//f@len =&#123;1,@Time,@width&#125;;这是不能这么写的</span></span><br><span class="line"><span class="number">3</span>[]@rotation;</span><br><span class="line">s[]@letters =&#123;<span class="string">&#x27;H&#x27;</span>,<span class="string">&#x27;I&#x27;</span>&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//自定义创建属性</span></span><br><span class="line">f@mass = <span class="number">1</span>/@area;</span><br><span class="line">v@up = <span class="built_in">set</span>(<span class="number">0</span>,<span class="number">1</span>,<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">i@id = <span class="number">8</span>; <span class="comment">//i表示整数</span></span><br><span class="line">f@width = <span class="number">1.0</span>;<span class="comment">//f表示浮点数</span></span><br><span class="line">u@xy = &#123;<span class="number">0.3</span>,<span class="number">0.9</span>&#125;;<span class="comment">//u表示二维向量</span></span><br><span class="line">v@w = <span class="built_in">set</span>(@width,$PI,<span class="number">0.5</span>);<span class="comment">//v表示三维向量//v@w = &#123;@width,$PI,0.5&#125;;不能这么写</span></span><br><span class="line">p@point = &#123;<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">1</span>&#125;;<span class="comment">//p表示四维向量</span></span><br><span class="line"><span class="number">2</span>@scale_2d = &#123;&#123;<span class="number">2</span>,<span class="number">0</span>&#125;,&#123;<span class="number">1</span>,<span class="number">9</span>&#125;&#125;;<span class="comment">//2表示2x2维矩阵</span></span><br><span class="line"><span class="number">3</span>@scale = &#123;&#123;<span class="number">2</span>,<span class="number">1</span>,<span class="number">6</span>&#125;,&#123;<span class="number">2</span>,<span class="number">1</span>,<span class="number">9</span>&#125;,&#123;<span class="number">1</span>,<span class="number">5</span>,<span class="number">7</span>&#125;&#125;;<span class="comment">//3表示3x3矩阵</span></span><br><span class="line"><span class="number">4</span>@trans =&#123;&#123;<span class="number">2</span>,<span class="number">1</span>,<span class="number">5</span>,<span class="number">0</span>&#125;,&#123;<span class="number">2</span>,<span class="number">8</span>,<span class="number">7</span>,<span class="number">2</span>&#125;,&#123;<span class="number">3</span>,<span class="number">4</span>,<span class="number">6</span>,<span class="number">9</span>&#125;,&#123;<span class="number">2</span>,<span class="number">1</span>,<span class="number">4</span>,<span class="number">8</span>&#125;&#125;;<span class="comment">//4表示4x4矩阵</span></span><br><span class="line">s@path = <span class="string">&quot;op/obj/geo1/pack1&quot;</span>;<span class="comment">//s表示字符串</span></span><br><span class="line"><span class="type">int</span> @neighbours[]=;<span class="comment">//不简写不能赋初始值</span></span><br><span class="line">                  <span class="comment">// int @neighbours[]=&#123;1,2,0&#125;;Error</span></span><br><span class="line"><span class="comment">//create custom array</span></span><br><span class="line">i[]@pointcloud =&#123;<span class="number">0</span>,<span class="number">1</span>,<span class="number">2</span>&#125;;</span><br><span class="line">f[]@len =<span class="built_in">array</span>(<span class="number">1</span>,@Time,@width);<span class="comment">//f@len =&#123;1,@Time,@width&#125;;这是不能这么写的</span></span><br><span class="line"><span class="number">3</span>[]@rotation;</span><br><span class="line">s[]@letters =&#123;<span class="string">&#x27;H&#x27;</span>,<span class="string">&#x27;I&#x27;</span>&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
 </ul>
 <h2 id="函数-Functions"><a href="#函数-Functions" class="headerlink" title="函数(Functions)"></a>函数(Functions)</h2><hr>
 <ul>
-<li><h6 id="给-点-面-顶点-几何体本身层级-添加属性"><a href="#给-点-面-顶点-几何体本身层级-添加属性" class="headerlink" title="给 点 面 顶点 几何体本身层级  添加属性"></a>给 点 面 顶点 几何体本身层级  添加属性</h6><ul>
-<li><h3 id="addpointattrib-0-Cd-0-0-0-第一个-代该表节点第几个连接端口-第二个-属性的名字-第三个-属性的值"><a href="#addpointattrib-0-Cd-0-0-0-第一个-代该表节点第几个连接端口-第二个-属性的名字-第三个-属性的值" class="headerlink" title="addpointattrib(0,&quot;Cd&quot;,{0,0,0});    第一个  代该表节点第几个连接端口  第二个 属性的名字  第三个 属性的值"></a><code>addpointattrib(0,&quot;Cd&quot;,&#123;0,0,0&#125;);</code>    第一个  <code>代该表节点第几个连接端口</code>  第二个 <code>属性的名字 </code> 第三个 <code>属性的值</code></h3></li>
+<li><h6 id="给-点-面-顶点-几何体本身层级-添加属性"><a href="#给-点-面-顶点-几何体本身层级-添加属性" class="headerlink" title="给 点 面 顶点 几何体本身层级 添加属性"></a>给 点 面 顶点 几何体本身层级 添加属性</h6><ul>
+<li><h3 id="addpointattrib-0-Cd-0-0-0-第一个-代该表节点第几个连接端口-第二个-属性的名字-第三个-属性的值"><a href="#addpointattrib-0-Cd-0-0-0-第一个-代该表节点第几个连接端口-第二个-属性的名字-第三个-属性的值" class="headerlink" title="addpointattrib(0,&quot;Cd&quot;,{0,0,0}); 第一个 代该表节点第几个连接端口 第二个 属性的名字  第三个 属性的值"></a><code>addpointattrib(0,&quot;Cd&quot;,&#123;0,0,0&#125;);</code> 第一个 <code>代该表节点第几个连接端口</code> 第二个 <code>属性的名字 </code> 第三个 <code>属性的值</code></h3></li>
 <li><h3 id="addvertexattrib-0-Cd-0-0-0"><a href="#addvertexattrib-0-Cd-0-0-0" class="headerlink" title="addvertexattrib(0,&quot;Cd&quot;,{0,0,0});"></a><code>addvertexattrib(0,&quot;Cd&quot;,&#123;0,0,0&#125;);</code></h3></li>
 <li><h3 id="addprimattrib-0-Cd-0-0-0"><a href="#addprimattrib-0-Cd-0-0-0" class="headerlink" title="addprimattrib(0,&quot;Cd&quot;,{0,0,0});"></a><code>addprimattrib(0,&quot;Cd&quot;,&#123;0,0,0&#125;);</code></h3></li>
 <li><h3 id="adddetailattrib-0-Cd-0-0-0"><a href="#adddetailattrib-0-Cd-0-0-0" class="headerlink" title="adddetailattrib(0,&quot;Cd&quot;,{0,0,0});"></a><code>adddetailattrib(0,&quot;Cd&quot;,&#123;0,0,0&#125;);</code></h3></li>
 </ul>
 </li>
-<li><h6 id="给-点-面-顶点-几何体本身层级-修改属性"><a href="#给-点-面-顶点-几何体本身层级-修改属性" class="headerlink" title="给 点 面 顶点 几何体本身层级  修改属性"></a>给 点 面 顶点 几何体本身层级  修改属性</h6><ul>
-<li><h3 id="setpointattrib-0-Cd-3-0-0-0-第一个-代该表节点第几个连接端口-第二个-属性的名字-第三个-第几个点-第四个-给属性修改的值"><a href="#setpointattrib-0-Cd-3-0-0-0-第一个-代该表节点第几个连接端口-第二个-属性的名字-第三个-第几个点-第四个-给属性修改的值" class="headerlink" title="setpointattrib(0,&quot;Cd&quot;,3,{0,0,0});    第一个 代该表节点第几个连接端口 第二个 属性的名字 第三个 第几个点  第四个 给属性修改的值"></a><code>setpointattrib(0,&quot;Cd&quot;,3,&#123;0,0,0&#125;);</code>    第一个 <code>代该表节点第几个连接端口</code> 第二个 <code>属性的名字</code> 第三个 <code>第几个点 </code> 第四个 <code>给属性修改的值</code></h3></li>
-<li><h3 id="setvertexattrib-0-Cd-3-3-0-0-0-第一个-代该表节点第几个连接端口-第二个-属性的名字-第三个-第几个面的-第四个-第几个顶点-第五个-给属性修改的值"><a href="#setvertexattrib-0-Cd-3-3-0-0-0-第一个-代该表节点第几个连接端口-第二个-属性的名字-第三个-第几个面的-第四个-第几个顶点-第五个-给属性修改的值" class="headerlink" title="setvertexattrib(0,&quot;Cd&quot;,3,3,{0,0,0}); 第一个 代该表节点第几个连接端口  第二个 属性的名字  第三个 第几个面的  第四个 第几个顶点 第五个 给属性修改的值"></a><code>setvertexattrib(0,&quot;Cd&quot;,3,3,&#123;0,0,0&#125;);</code> 第一个 <code>代该表节点第几个连接端口 </code> 第二个 <code>属性的名字 </code> 第三个 <code>第几个面的</code>  第四个 <code>第几个顶点</code> 第五个 <code>给属性修改的值</code></h3></li>
+<li><h6 id="给-点-面-顶点-几何体本身层级-修改属性"><a href="#给-点-面-顶点-几何体本身层级-修改属性" class="headerlink" title="给 点 面 顶点 几何体本身层级 修改属性"></a>给 点 面 顶点 几何体本身层级 修改属性</h6><ul>
+<li><h3 id="setpointattrib-0-Cd-3-0-0-0-第一个-代该表节点第几个连接端口-第二个-属性的名字-第三个-第几个点-第四个-给属性修改的值"><a href="#setpointattrib-0-Cd-3-0-0-0-第一个-代该表节点第几个连接端口-第二个-属性的名字-第三个-第几个点-第四个-给属性修改的值" class="headerlink" title="setpointattrib(0,&quot;Cd&quot;,3,{0,0,0}); 第一个 代该表节点第几个连接端口 第二个 属性的名字 第三个 第几个点  第四个 给属性修改的值"></a><code>setpointattrib(0,&quot;Cd&quot;,3,&#123;0,0,0&#125;);</code> 第一个 <code>代该表节点第几个连接端口</code> 第二个 <code>属性的名字</code> 第三个 <code>第几个点 </code> 第四个 <code>给属性修改的值</code></h3></li>
+<li><h3 id="setvertexattrib-0-Cd-3-3-0-0-0-第一个-代该表节点第几个连接端口-第二个-属性的名字-第三个-第几个面的-第四个-第几个顶点-第五个-给属性修改的值"><a href="#setvertexattrib-0-Cd-3-3-0-0-0-第一个-代该表节点第几个连接端口-第二个-属性的名字-第三个-第几个面的-第四个-第几个顶点-第五个-给属性修改的值" class="headerlink" title="setvertexattrib(0,&quot;Cd&quot;,3,3,{0,0,0}); 第一个 代该表节点第几个连接端口  第二个 属性的名字  第三个 第几个面的 第四个 第几个顶点 第五个 给属性修改的值"></a><code>setvertexattrib(0,&quot;Cd&quot;,3,3,&#123;0,0,0&#125;);</code> 第一个 <code>代该表节点第几个连接端口 </code> 第二个 <code>属性的名字 </code> 第三个 <code>第几个面的</code> 第四个 <code>第几个顶点</code> 第五个 <code>给属性修改的值</code></h3></li>
 <li><h3 id="setprimattrib-0-Cd-3-0-0-0"><a href="#setprimattrib-0-Cd-3-0-0-0" class="headerlink" title="setprimattrib(0,&quot;Cd&quot;,3,{0,0,0});"></a><code>setprimattrib(0,&quot;Cd&quot;,3,&#123;0,0,0&#125;);</code></h3></li>
 <li><h3 id="setdetailattrib-0-Cd-3-0-0-0"><a href="#setdetailattrib-0-Cd-3-0-0-0" class="headerlink" title="setdetailattrib(0,&quot;Cd&quot;,3,{0,0,0});"></a><code>setdetailattrib(0,&quot;Cd&quot;,3,&#123;0,0,0&#125;);</code></h3></li>
 </ul>
 </li>
 <li><h4 id="set-float-float-float"><a href="#set-float-float-float" class="headerlink" title="set (float,float,float);"></a>set (float,float,float);</h4></li>
-<li><h4 id="rand-seed-为float类型-1：随机种子数-area-：0-1"><a href="#rand-seed-为float类型-1：随机种子数-area-：0-1" class="headerlink" title="rand(seed);为float类型 1：随机种子数(area ：0-1)"></a>rand(seed);为float类型 1：<code>随机种子数(area ：0-1)</code></h4></li>
+<li><h4 id="rand-seed-为-float-类型-1：随机种子数-area-：0-1"><a href="#rand-seed-为-float-类型-1：随机种子数-area-：0-1" class="headerlink" title="rand(seed);为 float 类型 1：随机种子数(area ：0-1)"></a>rand(seed);为 float 类型 1：<code>随机种子数(area ：0-1)</code></h4></li>
 <li><h4 id="fit-float-float-float-float-float-1-要获取的对应变量值2：旧的的最小值-3：旧的最大值-4：新的最小值-5：新的最大值"><a href="#fit-float-float-float-float-float-1-要获取的对应变量值2：旧的的最小值-3：旧的最大值-4：新的最小值-5：新的最大值" class="headerlink" title="fit(float,float,float ,float,,float); 1:要获取的对应变量值2：旧的的最小值 3：旧的最大值 4：新的最小值 5：新的最大值"></a>fit(float,float,float ,float,,float); 1:<code>要获取的对应变量值</code>2：<code>旧的的最小值</code> 3：<code>旧的最大值 </code>4：<code>新的最小值</code> 5：<code>新的最大值</code></h4></li>
 <li><h4 id="fit01-“baisc-param-float-float”-1-基于哪个属性-2-最小值-3：最大值-省略了旧的最小值和最大值-默认最小最大为0-1"><a href="#fit01-“baisc-param-float-float”-1-基于哪个属性-2-最小值-3：最大值-省略了旧的最小值和最大值-默认最小最大为0-1" class="headerlink" title="fit01(“baisc param,float,float”);1:基于哪个属性 2:最小值 3：最大值 省略了旧的最小值和最大值 默认最小最大为0-1"></a>fit01(“baisc param,float,float”);1:<code>基于哪个属性</code> 2:<code>最小值</code> 3：<code>最大值</code> <code>省略了旧的最小值和最大值 默认最小最大为0-1</code></h4></li>
 <li><h4 id="rint-float-1-返回最近n的整数-对于向量按分量完成的"><a href="#rint-float-1-返回最近n的整数-对于向量按分量完成的" class="headerlink" title="rint(float); 1:返回最近n的整数 对于向量按分量完成的"></a>rint(float); 1:<code>返回最近n的整数 对于向量按分量完成的</code></h4></li>
-<li><h4 id="removepoint-int-int-删除点-1-索引-2-参"><a href="#removepoint-int-int-删除点-1-索引-2-参" class="headerlink" title="removepoint(int,int);  :删除点  1: 索引  2:&#96;参"></a>removepoint(int,int);  :<code>删除点</code>  1: <code>索引</code>  2:&#96;参</h4></li>
-<li><h4 id="lerp-value1-value2-blend-在值之间进行线性插值-1-参数-2-条件-3-混合值"><a href="#lerp-value1-value2-blend-在值之间进行线性插值-1-参数-2-条件-3-混合值" class="headerlink" title="lerp(value1,value2,blend);  在值之间进行线性插值   1:参数 2:条件 3:混合值"></a>lerp(value1,value2,blend);  <code>在值之间进行线性插值  </code> 1:<code>参数</code> 2:<code>条件</code> 3:<code>混合值</code></h4></li>
+<li><h4 id="removepoint-int-int-删除点-1-索引-2-参"><a href="#removepoint-int-int-删除点-1-索引-2-参" class="headerlink" title="removepoint(int,int); :删除点 1: 索引 2:&#96;参"></a>removepoint(int,int); :<code>删除点</code> 1: <code>索引</code> 2:&#96;参</h4></li>
+<li><h4 id="lerp-value1-value2-blend-在值之间进行线性插值-1-参数-2-条件-3-混合值"><a href="#lerp-value1-value2-blend-在值之间进行线性插值-1-参数-2-条件-3-混合值" class="headerlink" title="lerp(value1,value2,blend); 在值之间进行线性插值   1:参数 2:条件 3:混合值"></a>lerp(value1,value2,blend); <code>在值之间进行线性插值  </code> 1:<code>参数</code> 2:<code>条件</code> 3:<code>混合值</code></h4></li>
 <li><h4 id="vector-anoise-pos-vector-turbulence-int-rough-float-atten-float-添加噪波"><a href="#vector-anoise-pos-vector-turbulence-int-rough-float-atten-float-添加噪波" class="headerlink" title="(vector) anoise(pos(vector),turbulence(int),rough(float),atten(float)); 添加噪波"></a>(vector) anoise(pos(vector),turbulence(int),rough(float),atten(float)); <code>添加噪波</code></h4></li>
 <li><h3 id="float-vector-ceil-去小数点加-一"><a href="#float-vector-ceil-去小数点加-一" class="headerlink" title="(float&#x2F;vector)ceil(); :去小数点加 一"></a>(float&#x2F;vector)ceil(); :<code>去小数点加 一</code></h3></li>
 <li><h3 id="abs-把负数转换成正数"><a href="#abs-把负数转换成正数" class="headerlink" title="abs();把负数转换成正数"></a>abs();<code>把负数转换成正数</code></h3></li>
@@ -401,7 +403,7 @@
 </ul>
 <h2 id="通道函数-Channel-Functions"><a href="#通道函数-Channel-Functions" class="headerlink" title="通道函数(Channel Functions)"></a>通道函数(Channel Functions)</h2><hr>
 <ul>
-<li><h3 id="ch-“func-name”-创建备用可调节参数"><a href="#ch-“func-name”-创建备用可调节参数" class="headerlink" title="ch(“func_name”);    创建备用可调节参数"></a>ch(“func_name”);    <code>创建备用可调节参数</code></h3><ul>
+<li><h3 id="ch-“func-name”-创建备用可调节参数"><a href="#ch-“func-name”-创建备用可调节参数" class="headerlink" title="ch(“func_name”); 创建备用可调节参数"></a>ch(“func_name”); <code>创建备用可调节参数</code></h3><ul>
 <li><p>chi(“func_name”); :Integer</p>
 </li>
 <li><p>chf(“func_name”); float</p>
@@ -418,7 +420,7 @@
 </li>
 <li><p>chu(“func_name”); : 2D vector</p>
 </li>
-<li><p>chp(“func_name”);  :4D vector</p>
+<li><p>chp(“func_name”); :4D vector</p>
 </li>
 </ul>
 </li>
@@ -430,10 +432,258 @@
 </ul>
 ]]></content>
       <categories>
-        <category>gallery</category>
+        <category>-[gallery]</category>
       </categories>
       <tags>
         <tag>VEX Expression</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SOPNodes</title>
+    <url>/2024/10/28/SOPNode/</url>
+    <content><![CDATA[<h1 id="SOP-Memory-Tips"><a href="#SOP-Memory-Tips" class="headerlink" title="SOP Memory Tips"></a><strong>SOP Memory Tips</strong></h1><hr>
+<h1 id="SOP-Usual-Nodes（Edit-To-Model-Frequency）"><a href="#SOP-Usual-Nodes（Edit-To-Model-Frequency）" class="headerlink" title="SOP Usual Nodes（Edit To Model Frequency）"></a>SOP Usual Nodes（Edit To Model Frequency）</h1><table>
+<thead>
+<tr>
+<th align="center">Tube「创建圆柱体」</th>
+<th align="center">Transform「对物体的 PSR」</th>
+<th align="center">Convert「转化线框」</th>
+<th align="center">Attribcreate「属性创建」</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Gird「创建平面网格」</td>
+<td align="center">Edit「编辑点线面」</td>
+<td align="center">Resample「重新采样点」</td>
+<td align="center">Enunerate「创建唯一编号」</td>
+</tr>
+<tr>
+<td align="center">Box「创建立方体」</td>
+<td align="center">PointJitter「抖动点的位置」</td>
+<td align="center">Fuse「焊接临界点」</td>
+<td align="center">Attribpaint「绘制属性」</td>
+</tr>
+<tr>
+<td align="center">Torus「创建圆环体」</td>
+<td align="center">Mountain「噪波（形态）置换」</td>
+<td align="center">Carve「切片几何体」</td>
+<td align="center">Merge「节点合并」</td>
+</tr>
+<tr>
+<td align="center">Sphere「创建球体」</td>
+<td align="center">Smooth「平滑点」</td>
+<td align="center">Trail「创建尾托」</td>
+<td align="center">Null「空节点」</td>
+</tr>
+<tr>
+<td align="center">Add「创建点&#x2F;点连线」</td>
+<td align="center">Subdivide「细分曲面」</td>
+<td align="center">Clip「裁切几何体」</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Scatter「在物体表面撒点」</td>
+<td align="center"></td>
+<td align="center">Blast「指定删除点线面」</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Circle「创建圆环」</td>
+<td align="center"></td>
+<td align="center">Delete「删除点线面」</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Line「创建直线」</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Curve「绘制曲线」</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center">Copy「线性克隆」</th>
+<th align="center">PolyExtrude「挤出」</th>
+<th align="center">Obeject_Merge「对象指定转移」</th>
+<th align="center">Font「创建文本」</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">CopyToPoints「克隆到点」</td>
+<td align="center">Remesh「重新拓扑」</td>
+<td align="center">File「导入模型」</td>
+<td align="center">Bend「弯曲扭曲膨胀」</td>
+</tr>
+<tr>
+<td align="center">CopyToCurve「克隆到曲线」</td>
+<td align="center">Trace「从图片创建曲线」</td>
+<td align="center">Alembic「导入 ABC 模型」</td>
+<td align="center">Skin「放样」</td>
+</tr>
+<tr>
+<td align="center">Normal「创建法线」</td>
+<td align="center">Visbility「隐藏点线面」</td>
+<td align="center">Rop_Alembic「导出 ABC 模型」</td>
+<td align="center">Ripple「水波」</td>
+</tr>
+<tr>
+<td align="center">PolyFrame「法线和切线的计算」</td>
+<td align="center">Control「控制器」</td>
+<td align="center">Rop_Geometry「导出几何体」</td>
+<td align="center">Mirro「镜像」</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">PolyEduce「减面」</td>
+<td align="center">Export「导出 Obj 模型」</td>
+<td align="center">Boolean「布尔运算」</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">PolyWire「晶格（连接）」</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">Wire「晶格（独立）」</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center">Group「创建组」</th>
+<th align="center">GroupAttribute「组转化为属性」</th>
+<th align="center">GroupRomote「元素间组转换」</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">GroupRename「重命名组名」</td>
+<td align="center">Group_by_attribute「属性转化为组」</td>
+<td align="center">GroupTransfer「组的转移」</td>
+</tr>
+<tr>
+<td align="center">GroupCombine「组的布尔运算」</td>
+<td align="center">GroupFindPath「组的最短路径成组」</td>
+<td align="center">GroupCopy「组的复制」</td>
+</tr>
+<tr>
+<td align="center">GroupRange「图案建组」</td>
+<td align="center">GroupInvert「组的反转」</td>
+<td align="center">GroupExpression「表达式成组」</td>
+</tr>
+<tr>
+<td align="center">GroupPaint「手动绘制点组」</td>
+<td align="center"></td>
+<td align="center">GroupDelete「删除组」</td>
+</tr>
+<tr>
+<td align="center">GroupExpand「组的扩展延伸」</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center">SequenceBlend「圆滑混合」</th>
+<th align="center">SoftTransform「衰减 PSR」</th>
+<th align="center">Stroke「自由绘制和投射曲线」</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">BlendShapes「混合模型」</td>
+<td align="center">Peak「沿法线移动」</td>
+<td align="center">Starburst「向内挤压和挤出」</td>
+</tr>
+<tr>
+<td align="center">Bound「限界」</td>
+<td align="center">SoftPeak「衰减沿法线移动」</td>
+<td align="center">Switch「门禁（控制数据的放行）」</td>
+</tr>
+<tr>
+<td align="center">MatchPolygy「匹配拓扑」</td>
+<td align="center">IsoOffset「模型转化成体积」</td>
+<td align="center">Stash「冻结数量」</td>
+</tr>
+<tr>
+<td align="center">Sweep「扫描外形」</td>
+<td align="center">ExtrudeVolume「挤出实体」</td>
+<td align="center">Measure「测量和存储数据」</td>
+</tr>
+<tr>
+<td align="center">SuperQuad「超级曲面」</td>
+<td align="center">PolyFill「封闭空间」</td>
+<td align="center">sort「更改序号」</td>
+</tr>
+<tr>
+<td align="center">PolyPath「提取线框」</td>
+<td align="center"></td>
+<td align="center">Ray「收缩包裹（将一个模型投射到另一个模型上）」</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>-[gallery]</category>
+      </categories>
+      <tags>
+        <tag>SOP</tag>
       </tags>
   </entry>
 </search>
